@@ -169,8 +169,7 @@ Buscar el siguiente bloque:
 $page = [
     'component' => $this->component,
     'props' => $props,
-    //'url' => $request->getBaseUrl().$request->getRequestUri(),
-    'url' => $request->getRequestUri(),
+    'url' => $request->getBaseUrl().$request->getRequestUri(),
     'version' => $this->version,
 ];
 ```
